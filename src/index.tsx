@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Main from "./components/main";
+import Main from "./components/App";
 
 ReactDOM.render((
-  <Main />
+  <Main title={"portfolio"}/>
   ),
   document.getElementById('root')
 );
