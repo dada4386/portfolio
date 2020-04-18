@@ -29,6 +29,13 @@ type HeaderProps = {
 
 const style = makeStyles((theme: Theme) =>
   createStyles({
+    buttonBox: {
+      display: "flex",
+      flexDirection: "row",
+      '& > *': {
+        margin: theme.spacing(1),
+      },
+    },
     header: {
       display: "flex",
       flexDirection: "row",
@@ -55,10 +62,10 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
                 {title}
               </Typography>
             </Container>
-            <Box display="flex" flexDirection={"row"}>
+            <Box className={classes.buttonBox}>
               {menuElements.map((name: string) => (
-                <Button color={"inherit"}>
-                  <Link activeClass="active" to={name} spy={true} smooth={true} duration={500}>{name}</Link>
+                <Button variant="outlined" color={"inherit"}>
+                  <Link activeClass="active" to={name} spy={true} smooth={true}>{name}</Link>
                 </Button>
               ))}
             </Box>
