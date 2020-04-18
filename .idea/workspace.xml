@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Top.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +203,21 @@
       <option name="project" value="LOCAL" />
       <updated>1587201377828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Divide home component">
+      <created>1587215690280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1587215690280</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed padding">
+      <created>1587215759522</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1587215759522</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +226,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added header by material-ui" />
     <MESSAGE value="Added top banner" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added top banner" />
+    <MESSAGE value="Divide home component" />
+    <MESSAGE value="Fixed padding" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed padding" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="256" key="#Docker" timestamp="1586861059373">
@@ -246,10 +263,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="845" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586867815860" />
-    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587215689275">
+    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587215759011">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215689275" />
+    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215759011" />
     <state x="877" y="351" key="FileChooserDialogImpl" timestamp="1587189905372">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -258,10 +275,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="606" y="240" key="SettingsEditor/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586871438244" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587201380129">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587215762898">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587201380129" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215762898" />
     <state x="839" y="338" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1586069407636">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -274,13 +291,13 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="790" y="277" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586067596022" />
-    <state x="793" y="195" width="609" height="804" key="find.popup" timestamp="1587189738300">
+    <state x="793" y="195" width="609" height="804" key="find.popup" timestamp="1587220544812">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587189738300" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587215743531">
+    <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587220544812" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587222001632">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215743531" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587222001632" />
   </component>
 </project>
