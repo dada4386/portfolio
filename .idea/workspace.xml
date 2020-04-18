@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Top.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/home.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/home.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/home.tsx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,10 +234,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="690" y="256" key="#Pull_Image/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586063200631" />
-    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587195081133">
+    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1587214845263">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587195081133" />
+    <state x="828" y="344" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587214845263" />
     <state x="824" y="244" key="#node-docker" timestamp="1586063369147">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -277,9 +278,9 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587189738300" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587212886145">
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587215657891">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587212886145" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215657891" />
   </component>
 </project>
