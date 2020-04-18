@@ -4,7 +4,6 @@ import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Slide from '@material-ui/core/Slide';
 
 type ScrollProps = {
   children: React.ReactElement,
@@ -15,18 +14,16 @@ const ElevationScroll: React.FC<ScrollProps> = ({children}) => {
     disableHysteresis: true,
     threshold: 0,
   });
-  return (
-    <Slide appear={false} direction="down" in={!trigger}>
-      {children}
-    </Slide>
-  );
+  return React.cloneElement(children, {
+    elevation: trigger ? 4 : 0,
+  });
 };
 
 type HeaderProps = {
   title: string,
 }
 
-function Header(props: HeaderProps) {
+const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
   const title = props.title;
   return (
     <ElevationScroll>
@@ -39,6 +36,6 @@ function Header(props: HeaderProps) {
       </AppBar>
     </ElevationScroll>
   )
-}
+};
 
 export default Header;

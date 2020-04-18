@@ -1,58 +1,43 @@
 import React from 'react';
 import Home from "./home";
 import Header from "./header";
-import Container from "@material-ui/core/Container";
 import CssBaseline from '@material-ui/core/CssBaseline';
-import {Theme, makeStyles, createStyles} from "@material-ui/core/styles";
-import Paper from "@material-ui/core/Paper";
+import {MuiThemeProvider, createMuiTheme} from "@material-ui/core/styles";
+import {blueGrey} from "@material-ui/core/colors";
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    toolbar: theme.mixins.toolbar,
-    layout: {
-      width: 'auto',
-      marginLeft: theme.spacing(2),
-      marginRight: theme.spacing(2),
-      [theme.breakpoints.up(600 + theme.spacing(2) * 2)]: {
-        width: 1000,
-        marginLeft: 'auto',
-        marginRight: 'auto',
-      },
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      light: blueGrey["300"],
+      main: blueGrey["500"],
+      dark: blueGrey["700"],
     },
-    paper: {
-      marginTop: theme.spacing(3),
-      marginBottom: theme.spacing(3),
-      padding: theme.spacing(2),
-      [theme.breakpoints.up(600 + theme.spacing(3) * 2)]: {
-        marginTop: theme.spacing(6),
-        marginBottom: theme.spacing(6),
-        padding: theme.spacing(3),
-      },
-    },
-  })
-);
+  },
+  typography: {
+    "fontSize": 12,
+    "fontWeightLight": 300,
+    "fontWeightRegular": 400,
+    "fontWeightMedium": 500
+  },
+});
 
 type Props = {
   title: string,
 }
 
-function App({title}: Props) {
-  const classes = useStyles();
+const App: React.FC<Props> = (props: Props) =>{
   return (
     <React.Fragment>
-      <CssBaseline />
-      <Container maxWidth={"lg"}>
-        <Header title={title}/>
-        <div className={classes.toolbar} />
-        <main className={classes.layout}>
-          <Paper className={classes.paper}>
-            <Home />
-          </Paper>
+      <MuiThemeProvider theme={theme}>
+        <CssBaseline />
+        <Header title={props.title}/>
+        <main className={"main"}>
+          <Home />
         </main>
-      </Container>
+      </MuiThemeProvider>
     </React.Fragment>
   );
-}
+};
 
 export default App;
 
