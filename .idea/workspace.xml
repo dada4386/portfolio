@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,7 +213,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587215759522</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added menu in appbar">
+      <created>1587222014588</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1587222014588</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +231,8 @@
     <MESSAGE value="Added top banner" />
     <MESSAGE value="Divide home component" />
     <MESSAGE value="Fixed padding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed padding" />
+    <MESSAGE value="Added menu in appbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added menu in appbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="256" key="#Docker" timestamp="1586861059373">
@@ -263,10 +267,14 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="845" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586867815860" />
-    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587215759011">
+    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587222014038">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215759011" />
+    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587222014038" />
+    <state x="93" y="93" width="2008" height="1008" key="DiffContextDialog" timestamp="1587223765863">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state x="93" y="93" width="2008" height="1008" key="DiffContextDialog/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223765863" />
     <state x="877" y="351" key="FileChooserDialogImpl" timestamp="1587189905372">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -295,9 +303,9 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587220544812" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587222001632">
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587223765850">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587222001632" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223765850" />
   </component>
 </project>
