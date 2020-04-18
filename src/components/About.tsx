@@ -12,7 +12,7 @@ import {ComponentProps} from './App'
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     paper: {
-      padding: theme.spacing(8, 0, 6),
+      padding: theme.spacing(4, 0, 4),
       minWidth: "100%",
       elevation: 5,
     },
