@@ -78,7 +78,7 @@ const Top: React.FC<ComponentProps> = (props: any) => {
             Portfolio
           </Typography>
           <Typography className={homeClasses.titleTypography} variant="h4">
-            Backend/Infrastructure Engineer
+            ServerSide/Infrastructure Engineer
           </Typography>
           <Typography className={homeClasses.titleTypography} variant="h3">
             <Box className={classes.centerRow}>

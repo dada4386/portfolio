@@ -53,7 +53,6 @@ const defaultStyles = makeStyles((theme: Theme) =>
       padding: theme.spacing(8, 0, 6),
       display: "flex",
       alignItems: "center",
-      minHeight: "100vh",
     },
   })
 );
@@ -70,7 +69,7 @@ function createContent(name: string, content: React.FC<ComponentProps>): content
 const contents = [
   createContent("Top", Top),
   createContent("About", About),
-  createContent("SKill", Skill),
+  createContent("Skill", Skill),
   createContent("Products", Products),
 ]
 

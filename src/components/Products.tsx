@@ -68,7 +68,7 @@ const Products: React.FC<ComponentProps> = (props: any) => {
   return (
     <Container className={classes.homeDefaultContent}>
       <Container className={classes.centerColumn}>
-        {/* about header */}
+        {/* header */}
         <Container className={classes.headerContainer}>
           <Box className={classes.centerColumn}>
             <Typography variant="h3">
@@ -77,7 +77,7 @@ const Products: React.FC<ComponentProps> = (props: any) => {
             </Typography>
           </Box>
         </Container>
-        {/* about contents */}
+        {/* project contents */}
         <Grid container alignItems="center" justify="center" spacing={4}>
           {contentList.map((content) => (
             <Grid item key={content.title} xs={12} sm={6} md={4}>
@@ -104,7 +104,6 @@ const Products: React.FC<ComponentProps> = (props: any) => {
               </Card>
             </Grid>
           ))}
-
         </Grid>
       </Container>
     </Container>
