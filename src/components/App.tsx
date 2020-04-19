@@ -7,6 +7,7 @@ import Top from "./Top";
 import About from "./About";
 import Skill from "./Skill";
 import Products from "./Products";
+import Footer from "./Footer";
 import {ClassNameMap} from '@material-ui/core/styles/withStyles'
 
 const theme = createMuiTheme({
@@ -97,6 +98,7 @@ const App: React.FC<Props> = (props: Props) =>{
             </div>
           ))}
         </main>
+        <Footer title={props.title} contents={contents} />
       </MuiThemeProvider>
     </React.Fragment>
   );
