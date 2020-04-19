@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "09f24868750d575f649f941692f206fd",
+    "revision": "81758b8aecc4472a9aacd05bd2e52482",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "3492469f81fec7cc6bc9",
+    "revision": "a6b4cbc0fbab1a54e996",
     "url": "/portfolio/static/css/main.8307c9f2.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.186e830f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3492469f81fec7cc6bc9",
-    "url": "/portfolio/static/js/main.f65ee82f.chunk.js"
+    "revision": "a6b4cbc0fbab1a54e996",
+    "url": "/portfolio/static/js/main.d23fe04c.chunk.js"
   },
   {
     "revision": "ea7a3428552bcad2b30d",
@@ -36,7 +36,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/terraform.a3d84c24.png"
   },
   {
-    "revision": "b0ac86bf19b3d880123a65d502719730",
-    "url": "/portfolio/static/media/top.b0ac86bf.jpg"
+    "revision": "0fc50174d872c9ffb8a1c705ca2f2ee6",
+    "url": "/portfolio/static/media/top.0fc50174.jpg"
   }
 ]);
