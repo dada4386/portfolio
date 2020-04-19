@@ -1,9 +1,7 @@
 import * as React from "react";
 import Typography from "@material-ui/core/Typography";
-import {Link} from "react-scroll";
 import {contentType} from "./App";
 import {createStyles, makeStyles, Theme} from "@material-ui/core/styles";
-import Header from "./Header";
 
 type Props = {
   contents: contentType[],
@@ -17,7 +15,7 @@ const style = makeStyles((theme: Theme) =>
       padding: theme.spacing(6),
     },
   })
-)
+);
 
 
 const Footer: React.FC<Props> = (props: Props) => {

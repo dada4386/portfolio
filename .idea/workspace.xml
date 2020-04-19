@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="Added skill component">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+    <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="Move index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +43,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\web\github\public" />
+      <recent name="G:\web\github" />
       <recent name="G:\web\github\src\binary" />
       <recent name="G:\web\github\src\css" />
       <recent name="G:\web\github\src\components" />
-      <recent name="G:\web\github\public" />
-      <recent name="G:\web\github\src\public" />
     </key>
   </component>
-  <component name="RunManager" selected="Docker.Dockerfile">
+  <component name="RunManager" selected="npm.deploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -139,6 +140,16 @@
       </deployment>
       <method v="2" />
     </configuration>
+    <configuration name="deploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="deploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -149,8 +160,20 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="predeploy" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="predeploy" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.deploy" />
+        <item itemvalue="npm.predeploy" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.node-docker" />
@@ -186,7 +209,7 @@
       <workItem from="1587034441215" duration="32734000" />
       <workItem from="1587257988849" duration="660000" />
       <workItem from="1587258663591" duration="31000" />
-      <workItem from="1587258703143" duration="16629000" />
+      <workItem from="1587258703143" duration="17465000" />
     </task>
     <task id="LOCAL-00001" summary="Added header by material-ui">
       <created>1587043039145</created>
@@ -251,7 +274,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587274859916</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added Footer">
+      <created>1587275554293</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1587275554293</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Added deployment package of github page">
+      <created>1587275772164</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1587275772164</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Removed README.md">
+      <created>1587276152692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587276152692</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Move index.html">
+      <created>1587276225452</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1587276225452</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +321,11 @@
     <MESSAGE value="Fixed app bar menu to add outline" />
     <MESSAGE value="Added products content" />
     <MESSAGE value="Added skill component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added skill component" />
+    <MESSAGE value="Added Footer" />
+    <MESSAGE value="Added deployment package of github page" />
+    <MESSAGE value="Removed README.md" />
+    <MESSAGE value="Move index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Move index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="256" key="#Docker" timestamp="1586861059373">
@@ -305,10 +360,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="845" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586867815860" />
-    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587275553812">
+    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587276487294">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587275553812" />
+    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276487294" />
     <state x="93" y="93" width="2008" height="1008" key="DiffContextDialog" timestamp="1587223765863">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -317,14 +372,30 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="877" y="351" key="FileChooserDialogImpl/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587189905372" />
+    <state width="2173" height="210" key="GridCell.Tab.0.bottom" timestamp="1587276428751">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2173" height="210" key="GridCell.Tab.0.bottom/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
+    <state width="2173" height="210" key="GridCell.Tab.0.center" timestamp="1587276428751">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2173" height="210" key="GridCell.Tab.0.center/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
+    <state width="2173" height="210" key="GridCell.Tab.0.left" timestamp="1587276428751">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2173" height="210" key="GridCell.Tab.0.left/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
+    <state width="2173" height="210" key="GridCell.Tab.0.right" timestamp="1587276428751">
+      <screen x="0" y="0" width="2194" height="1194" />
+    </state>
+    <state width="2173" height="210" key="GridCell.Tab.0.right/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
     <state x="606" y="240" key="SettingsEditor" timestamp="1587258654383">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="606" y="240" key="SettingsEditor/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587258654383" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587275555820">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587276227267">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587275555820" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276227267" />
     <state x="839" y="338" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1586069407636">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -345,9 +416,9 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="754" y="279" key="run.anything.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587269829083" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587275750054">
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587276499518">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587275750054" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276499518" />
   </component>
 </project>
