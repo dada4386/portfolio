@@ -6,6 +6,12 @@ import Container from "@material-ui/core/Container";
 import Box from "@material-ui/core/Box";
 import Typography from "@material-ui/core/Typography";
 import {ComponentProps} from './App'
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {IconDefinition} from "@fortawesome/fontawesome-common-types"
+import {faGithub, faLinkedin, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faBlog} from "@fortawesome/free-solid-svg-icons";
+
+import "../css/home.css"
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
@@ -38,8 +44,27 @@ const useStyles = makeStyles((theme: Theme) =>
       fontFamily: "'Raleway', sans-serif",
       fontWeight: 1,
     },
+    iconBox: {
+      padding: theme.spacing(1,1,1)
+    }
   })
 );
+
+interface linkData {
+  url: string,
+  icon: IconDefinition,
+}
+
+function createLinkData(url: string, icon: IconDefinition): linkData {
+  return {url, icon}
+}
+
+const LinkList: linkData[] = [
+  createLinkData("https://github.com/dada4386", faGithub),
+  createLinkData("https://qiita.com/dada4386", faBlog),
+  createLinkData("https://www.linkedin.com/in/daiki-murayama-5b09a9188/", faLinkedin),
+  createLinkData("https://twitter.com/ext_dada", faTwitter),
+]
 
 const Top: React.FC<ComponentProps> = (props: any) => {
   const classes = props.style;
@@ -54,6 +79,17 @@ const Top: React.FC<ComponentProps> = (props: any) => {
           </Typography>
           <Typography className={homeClasses.titleTypography} variant="h4">
             Backend/Infrastructure Engineer
+          </Typography>
+          <Typography className={homeClasses.titleTypography} variant="h3">
+            <Box className={classes.centerRow}>
+              {LinkList.map((data) => (
+                <Box className={homeClasses.iconBox}>
+                  <a href={data.url}>
+                    <FontAwesomeIcon icon={data.icon} />
+                  </a>
+                </Box>
+              ))}
+            </Box>
           </Typography>
         </Box>
       </Container>

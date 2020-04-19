@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/Products.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Skill.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/actions/serviceWorker.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Top.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Top.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +45,7 @@
     <property name="nodejs_interpreter_path" value="$APPLICATION_CONFIG_DIR$/node/node-v12.13.1-win-x64/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="G:\web\github\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
@@ -184,6 +192,9 @@
       <workItem from="1586065703058" duration="17584000" />
       <workItem from="1587033806894" duration="624000" />
       <workItem from="1587034441215" duration="32734000" />
+      <workItem from="1587257988849" duration="660000" />
+      <workItem from="1587258663591" duration="31000" />
+      <workItem from="1587258703143" duration="9009000" />
     </task>
     <task id="LOCAL-00001" summary="Added header by material-ui">
       <created>1587043039145</created>
@@ -220,19 +231,38 @@
       <option name="project" value="LOCAL" />
       <updated>1587222014588</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed description in about">
+      <created>1587223803415</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587223803415</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Fixed app bar menu to add outline">
+      <created>1587223831922</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1587223831922</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/React-With-Smooth-Scrolling" />
+    </ignored-roots>
     <MESSAGE value="Added header by material-ui" />
     <MESSAGE value="Added top banner" />
     <MESSAGE value="Divide home component" />
     <MESSAGE value="Fixed padding" />
     <MESSAGE value="Added menu in appbar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added menu in appbar" />
+    <MESSAGE value="Fixed description in about" />
+    <MESSAGE value="Fixed app bar menu to add outline" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed app bar menu to add outline" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="256" key="#Docker" timestamp="1586861059373">
@@ -247,10 +277,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="824" y="163" key="#Dockerfile/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586861060404" />
-    <state x="690" y="256" key="#Plugins" timestamp="1586065689207">
+    <state x="690" y="256" key="#Plugins" timestamp="1587258693484">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="256" key="#Plugins/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586065689207" />
+    <state x="690" y="256" key="#Plugins/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587258693484" />
     <state x="690" y="256" key="#Pull_Image" timestamp="1586063200631">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -267,10 +297,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="845" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586867815860" />
-    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587223802875">
+    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587223831388">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223802875" />
+    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223831388" />
     <state x="93" y="93" width="2008" height="1008" key="DiffContextDialog" timestamp="1587223765863">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -279,14 +309,14 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="877" y="351" key="FileChooserDialogImpl/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587189905372" />
-    <state x="606" y="240" key="SettingsEditor" timestamp="1586871438244">
+    <state x="606" y="240" key="SettingsEditor" timestamp="1587258654383">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="606" y="240" key="SettingsEditor/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586871438244" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587215762898">
+    <state x="606" y="240" key="SettingsEditor/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587258654383" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587223834944">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587215762898" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223834944" />
     <state x="839" y="338" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1586069407636">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -299,13 +329,13 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="790" y="277" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586067596022" />
-    <state x="793" y="195" width="609" height="804" key="find.popup" timestamp="1587220544812">
+    <state x="793" y="195" width="609" height="804" key="find.popup" timestamp="1587264231718">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587220544812" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587223805381">
+    <state x="793" y="195" width="609" height="804" key="find.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587264231718" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587268000028">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587223805381" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587268000028" />
   </component>
 </project>

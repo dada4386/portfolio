@@ -7,7 +7,7 @@ import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import {Button, Container, Box} from "@material-ui/core";
 import {Link} from "react-scroll";
 import {createStyles, makeStyles, Theme} from "@material-ui/core/styles";
-import {ReactElement} from "react";
+import {contentType} from "./App"
 
 type ScrollProps = {
   children: React.ReactElement,
@@ -25,6 +25,7 @@ const ElevationScroll: React.FC<ScrollProps> = ({children}) => {
 
 type HeaderProps = {
   title: string,
+  contents: contentType[],
 }
 
 const style = makeStyles((theme: Theme) =>
@@ -45,10 +46,6 @@ const style = makeStyles((theme: Theme) =>
   }
 ))
 
-const menuElements = [
-  "Top", "About",
-]
-
 const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
   const title = props.title;
   const classes = style();
@@ -63,9 +60,9 @@ const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
               </Typography>
             </Container>
             <Box className={classes.buttonBox}>
-              {menuElements.map((name: string) => (
+              {props.contents.map((p) => (
                 <Button variant="outlined" color={"inherit"}>
-                  <Link activeClass="active" to={name} spy={true} smooth={true}>{name}</Link>
+                  <Link activeClass="active" to={p.name} spy={true} smooth={true} duration={300}>{p.name}</Link>
                 </Button>
               ))}
             </Box>

@@ -57,7 +57,7 @@ const About: React.FC<ComponentProps> = (props: any) => {
           <Box className={classes.centerColumn}>
             <Typography variant="h3">
               <FontAwesomeIcon icon={faUserTag} />&nbsp;
-              About
+              {props.name}
             </Typography>
           </Box>
         </Container>

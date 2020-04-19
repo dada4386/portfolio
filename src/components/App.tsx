@@ -1,12 +1,13 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import Header from "./Header";
 import CssBaseline from '@material-ui/core/CssBaseline';
 import {MuiThemeProvider, createMuiTheme, makeStyles, Theme, createStyles} from "@material-ui/core/styles";
 import {blueGrey} from "@material-ui/core/colors";
 import Top from "./Top";
 import About from "./About";
+import Skill from "./Skill";
+import Products from "./Products";
 import {ClassNameMap} from '@material-ui/core/styles/withStyles'
-import {Link, animateScroll as scroll} from 'react-scroll'
 
 const theme = createMuiTheme({
   palette: {
@@ -57,12 +58,29 @@ const defaultStyles = makeStyles((theme: Theme) =>
   })
 );
 
+export type contentType = {
+  name: string,
+  content: React.FC<ComponentProps>,
+}
+
+function createContent(name: string, content: React.FC<ComponentProps>): contentType {
+  return {name, content}
+}
+
+const contents = [
+  createContent("Top", Top),
+  createContent("About", About),
+  createContent("SKill", Skill),
+  createContent("Products", Products),
+]
+
 type Props = {
   title: string,
 }
 
 export type ComponentProps = {
   style: ClassNameMap,
+  name: string,
 }
 
 const App: React.FC<Props> = (props: Props) =>{
@@ -71,12 +89,14 @@ const App: React.FC<Props> = (props: Props) =>{
     <React.Fragment>
       <MuiThemeProvider theme={theme}>
         <CssBaseline />
-        <Header title={props.title}/>
+        <Header title={props.title} contents={contents}/>
         <main className={"main"}>
-          <section className="Top" />
-          <Top style={classes}/>
-          <section className="About" />
-          <About style={classes} />
+          {contents.map((p) => (
+            <div>
+              <section className={p.name} />
+              {p.content({style: classes, name: p.name})}
+            </div>
+          ))}
         </main>
       </MuiThemeProvider>
     </React.Fragment>
