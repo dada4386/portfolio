@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="Move index.html">
+    <list default="true" id="79f0005a-a492-4612-ba23-9294d5b1540c" name="Default Changelist" comment="Fixed package.json">
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/portfolio.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="G:\web\github\node_modules\typescript\lib" />
+    <property name="ts.external.directory.path" value="G:\web\portfolio\node_modules\typescript\lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -50,7 +49,7 @@
       <recent name="G:\web\github\src\components" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.deploy">
+  <component name="RunManager" selected="npm.predeploy">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
@@ -172,8 +171,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.deploy" />
         <item itemvalue="npm.predeploy" />
+        <item itemvalue="npm.deploy" />
         <item itemvalue="Docker.Dockerfile" />
         <item itemvalue="Docker.Docker Image" />
         <item itemvalue="Docker.node-docker" />
@@ -209,7 +208,8 @@
       <workItem from="1587034441215" duration="32734000" />
       <workItem from="1587257988849" duration="660000" />
       <workItem from="1587258663591" duration="31000" />
-      <workItem from="1587258703143" duration="17465000" />
+      <workItem from="1587258703143" duration="18489000" />
+      <workItem from="1587277452208" duration="1605000" />
     </task>
     <task id="LOCAL-00001" summary="Added header by material-ui">
       <created>1587043039145</created>
@@ -302,7 +302,35 @@
       <option name="project" value="LOCAL" />
       <updated>1587276225452</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Fixed package.json">
+      <created>1587276501801</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587276501801</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Resized home picture">
+      <created>1587278195646</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1587278195646</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Fixed title and description">
+      <created>1587278441016</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587278441016</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Changed Avatar picture">
+      <created>1587278978711</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1587278978711</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,7 +353,11 @@
     <MESSAGE value="Added deployment package of github page" />
     <MESSAGE value="Removed README.md" />
     <MESSAGE value="Move index.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="Move index.html" />
+    <MESSAGE value="Fixed package.json" />
+    <MESSAGE value="Resized home picture" />
+    <MESSAGE value="Fixed title and description" />
+    <MESSAGE value="Changed Avatar picture" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Avatar picture" />
   </component>
   <component name="WindowStateProjectService">
     <state x="690" y="256" key="#Docker" timestamp="1586861059373">
@@ -360,10 +392,10 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="845" y="453" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1586867815860" />
-    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587276487294">
+    <state x="724" y="193" key="CommitChangelistDialog2" timestamp="1587278978076">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276487294" />
+    <state x="724" y="193" key="CommitChangelistDialog2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587278978076" />
     <state x="93" y="93" width="2008" height="1008" key="DiffContextDialog" timestamp="1587223765863">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -372,30 +404,30 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="877" y="351" key="FileChooserDialogImpl/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587189905372" />
-    <state width="2173" height="210" key="GridCell.Tab.0.bottom" timestamp="1587276428751">
+    <state width="2173" height="210" key="GridCell.Tab.0.bottom" timestamp="1587277234922">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="210" key="GridCell.Tab.0.bottom/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
-    <state width="2173" height="210" key="GridCell.Tab.0.center" timestamp="1587276428751">
+    <state width="2173" height="210" key="GridCell.Tab.0.bottom/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587277234922" />
+    <state width="2173" height="210" key="GridCell.Tab.0.center" timestamp="1587277234922">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="210" key="GridCell.Tab.0.center/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
-    <state width="2173" height="210" key="GridCell.Tab.0.left" timestamp="1587276428751">
+    <state width="2173" height="210" key="GridCell.Tab.0.center/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587277234922" />
+    <state width="2173" height="210" key="GridCell.Tab.0.left" timestamp="1587277234922">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="210" key="GridCell.Tab.0.left/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
-    <state width="2173" height="210" key="GridCell.Tab.0.right" timestamp="1587276428751">
+    <state width="2173" height="210" key="GridCell.Tab.0.left/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587277234922" />
+    <state width="2173" height="210" key="GridCell.Tab.0.right" timestamp="1587277234922">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state width="2173" height="210" key="GridCell.Tab.0.right/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276428751" />
+    <state width="2173" height="210" key="GridCell.Tab.0.right/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587277234922" />
     <state x="606" y="240" key="SettingsEditor" timestamp="1587258654383">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="606" y="240" key="SettingsEditor/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587258654383" />
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587276227267">
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2" timestamp="1587278981152">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276227267" />
+    <state x="690" y="330" key="Vcs.Push.Dialog.v2/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587278981152" />
     <state x="839" y="338" key="com.intellij.docker.deployment.ui.DockerPortBindingsField.v173.dialogSize" timestamp="1586069407636">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
@@ -416,9 +448,9 @@
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
     <state x="754" y="279" key="run.anything.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587269829083" />
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587276499518">
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup" timestamp="1587736468620">
       <screen x="0" y="0" width="2194" height="1194" />
     </state>
-    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587276499518" />
+    <state x="760" y="264" width="672" height="678" key="search.everywhere.popup/3840.-1090.1920.1010/1920.-1080.1920.1040/0.0.2194.1194/3840.0.1920.1040@0.0.2194.1194" timestamp="1587736468620" />
   </component>
 </project>

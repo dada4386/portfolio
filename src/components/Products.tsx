@@ -13,7 +13,6 @@ const useStyle = makeStyles((theme: Theme) =>
     card: {
       display: 'flex',
       flexDirection: 'column',
-      minWidth: 364,
       minHeight: 450,
     },
     cardMedia: {
@@ -54,8 +53,8 @@ const contentList = [
     "https://github.com/dada4386/portfolio"
   ),
   createContent(
-    "API Server with IaaC",
-    "TerraformによるGCPに対するInfrastructure as a Codeの実装です。※現在非稼働",
+    "API Server with IaC",
+    "TerraformによるGCPに対するInfrastructure as Codeの実装です。※現在非稼働",
     "GCP / Kubernetes / terraform / CircleCI",
     terraformPic,
     "https://github.com/dada4386/kubernetes-teraform"
